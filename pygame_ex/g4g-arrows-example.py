@@ -43,7 +43,7 @@ pygame.display.set_caption("Creating Sprite")
  
 all_sprites_list = pygame.sprite.Group()
  
-jimmy = Sprite("jimmy1.png", "jimmy2.png")
+jimmy = Sprite("assets/jimmy1.png", "assets/jimmy2.png")
 jimmy.rect.x = 300
 jimmy.rect.y = 200
  

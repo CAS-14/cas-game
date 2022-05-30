@@ -7,12 +7,12 @@ black = 0, 0, 0
 
 screen = pygame.display.set_mode(size)
 
-ball = pygame.image.load("jimmy1.png")
+ball = pygame.image.load("assets/jimmy1.png")
 ballrect = ball.get_rect()
 
 clock = pygame.time.Clock()
 
-animation_frames = ["jimmy1.png", "jimmy2.png"]
+animation_frames = ["assets/jimmy1.png", "assets/jimmy2.png"]
 current_frame = 0
 
 def switch():
