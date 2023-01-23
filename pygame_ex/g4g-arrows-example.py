@@ -52,7 +52,7 @@ all_sprites_list.add(jimmy)
 exit = True
 clock = pygame.time.Clock()
 
-doGoofy = True
+doGoofy = False
  
 while exit:
     for event in pygame.event.get():
